@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --primary: #42b883;
+  --secondary: #35495e;
+  --gray-100: #f3f4f6;
+  --gray-200: #d1d5db;
+  --gray-300: #6b7280;
+  --white: #ffffff;
+  --black: #000000;
+
+  --font-title: "Roboto", sans-serif;
+  --font-body: "Roboto", sans-serif;
+  --font-2xl: 3.6rem;
+  --font-xl: 3rem;
+  --font-lg: 2.4rem;
+  --font-md: 1.8rem;
+  --font-base: 1.2rem;
+  --font-nrm: 1rem;
+  --font-sm: 0.6rem;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-base);
+}

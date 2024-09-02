@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-typescript-tailwind-starter",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port=3100",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node ./node_modules/nuxt/bin/nuxt.mjs start",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^4.1.6",
+    "@pinia/nuxt": "^0.5.4",
+    "pinia": "^2.2.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.14.1",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.20",
+    "happy-dom": "^15.7.3",
+    "nuxt": "^3.13.0",
+    "postcss": "^8.4.44",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
